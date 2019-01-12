@@ -1,7 +1,8 @@
-var a = 5;
-var b = 5;
+var a = 6;
+var b = 4;
 
-console.log(a+b);
-console.log(typeof(a+b));
+if (!isNaN(a, b)) {
 
-console.log(Math.max(7, 4, 6, 1, 4, 9, 0, 4,2, 4))
+    console.log("Luckynumber is " + (a * b));
+}
+
