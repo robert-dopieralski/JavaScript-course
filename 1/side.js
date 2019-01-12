@@ -1,13 +1,16 @@
-var string = "I'm a \"fun\" string";
-var a = "string";
-console.log(string);
-console.log(string.toUpperCase());
-console.log(string.indexOf("string"));
-var b = string.indexOf(a);
-console.log(string.indexOf(a));
-if (string.indexOf(a) === -1) {
-    console.log("word " + a + " is not in the string")
-}
-else {
-    console.log("the word " + a + " starts at position " + b);
-}
+var string1 = 'abc';
+var string2 = 'bcd';
+
+console.log(string1===string2)
+
+var string3 = 'abc';
+var string4 = 'ABC';
+
+console.log(string3===string4)
+
+
+var string5 = 'abc';
+var string6 = 'ABC';
+
+console.log(string5.toLowerCase===string6.toLowerCase)
+
